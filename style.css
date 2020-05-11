@@ -1,0 +1,214 @@
+/* set viewspace*/
+
+html, body {
+  height: 100%;
+  margin: 0px;
+  scroll-behavior: smooth;
+  font-family: 'Source Code Pro', monospace;
+}
+
+/* set background texture*/
+body {
+  background-color: rgb(109, 112, 112);
+  background-image: url("https://www.transparenttextures.com/patterns/paper-2.png");
+  overflow-x: hidden;
+}
+
+.link{
+  text-decoration: none !important;
+  color:inherit
+}
+
+.color{
+  color: rgb(0, 253, 240); 
+}
+
+
+img{
+  margin: 0 auto;
+  max-width: 500px;
+  width: 100%;
+}
+
+/*Navagation Bar*/
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background: rgb(70, 70, 70);
+  overflow: auto;
+  box-shadow: 0 5px 16px 0 rgba(0,0,0,0.3), 0 6px 10px 0 rgba(0,0,0,0.3);
+  z-index: 3;
+}
+
+.initial{
+  float:left;
+  font-size:28px;
+  padding-top : 6px;
+  padding-bottom: 4px;
+  padding-left:5px;
+  color: rgb(0, 253, 240);
+}
+
+.button {
+    display: block;
+    background-color: rgb(214, 214, 214);
+    order: 1;
+    border: none;
+    width :60px;
+    color : rgb(0, 0, 0);
+    padding-top : 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Oxygen Mono', monospace;
+    margin: 6px 6px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    outline: none;
+  }
+
+  .button:hover {
+    box-shadow: 0 5px 16px 0 rgba(0,250,250,0.2), 0 6px 10px 0 rgba(0,200,200,0.20);
+    background-color: rgb(0, 253, 240);
+    border: 2px solid rgb(146, 248, 255);
+  }
+
+  ul {
+    padding-top : 3px;
+    margin:auto;
+    list-style-type: none;
+  }
+
+  ul li {
+    float:right;
+  }
+
+  ol li{
+    margin: 10px 0;
+  }
+
+  /*Video landing section*/
+  main{
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .landing{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+  }
+
+  .video-header{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+
+  .video-wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .video-wrap video{
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  /* style overlay */
+  .overlay{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    background: rgba(70, 70, 70, .5);
+    z-index: 1;
+  }
+
+  .inner{
+    z-index: 1;
+  }
+  /* slyle headings */
+  h1 {
+    font-size: 3em;
+    text-align: center;
+    color: rgb(0, 253, 240);
+  }
+
+  h2 {
+    text-align: center;
+    color: rgb(0, 253, 240);
+  }
+
+  .intro {
+    line-height: 30px;
+    padding: 1em;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(230, 230, 230);
+  }
+
+  /*outer content box*/
+  .box{
+    display: flex;
+    padding-top: 5rem;
+    height: 100%;
+  }
+
+  .innerbox{
+    padding: 20px;
+    font-size: 14px;
+    color: rgb(230, 230, 230);
+    margin: 20px;
+    background: rgb(67, 69, 73);
+  }
+
+  blockquote{
+    color: rgb(0, 253, 240);
+    font-style: italic;
+  }
+
+  .photo{
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .projectlist{
+    float: initial;
+    list-style: disc;
+  }
+
+
+  .contact{
+    display: flex;
+    padding: 4px;
+    color: rgb(0, 253, 240); 
+  }
+  
+  hr{
+    width:80%;
+    text-align:center;
+    border-top: 8px solid  rgb(67, 69, 73);
+    border-radius: 5px;
+  }
+
+  .footer{
+    text-align: center;
+    padding: 5px;
+  }
+
+
+
+
